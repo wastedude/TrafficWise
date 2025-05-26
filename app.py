@@ -18,11 +18,11 @@ if 'current_map' not in st.session_state:
 
 # Page configuration
 st.set_page_config(
-    page_title="TrafficWise AI Planner",
+    page_title="TrafficWise AI Assistant",
     page_icon="🚦",
     layout="wide"
 )
-st.title("🚦 TrafficWise AI Planner")
+st.title("🚦 TrafficWise AI Assistant")
 
 def geocode_address(address):
     """Convert address to coordinates using HERE Geocoding API"""
@@ -132,7 +132,7 @@ def generate_traffic_map(center_lat=30.3753, center_lng=69.3451, tomtom_api_key=
 
 
 # Sidebar configuration
-st.sidebar.title("🚦 TrafficWise AI Planner")
+st.sidebar.title("🚦 TrafficWise AI Assistant")
 st.sidebar.markdown("Your AI Assistant for Traffic & all things related to traffic routes and congestion solutions.")
 
 # Previous locations section
