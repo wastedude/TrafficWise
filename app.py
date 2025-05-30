@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 # API Keys
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 HERE_API_KEY = "Z-INy7MKiZwfH6mAchEr0QPFaYuuo5QKqGxSnHxcKTY"
 
 # Initialize session states
@@ -25,7 +25,7 @@ st.set_page_config(
 st.title("🚦 TrafficWise AI Assistant")
 
 def geocode_address(address):
-    """Convert address to coordinates using HERE Geocoding API"""
+    #Convert address to coordinates using HERE Geocoding API
     url = f"https://geocode.search.hereapi.com/v1/geocode"
     params = {
         'q': address,
