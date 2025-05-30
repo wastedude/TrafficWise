@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 # API Keys
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 HERE_API_KEY = "Z-INy7MKiZwfH6mAchEr0QPFaYuuo5QKqGxSnHxcKTY"
 
 # Initialize session states
