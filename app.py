@@ -233,9 +233,9 @@ for idx, message in enumerate(st.session_state.chat_history):
     role = message["role"]
     content = message["content"]
     if role == "user":
-        st.markdown(f"👤 You:** {content}")
+        st.markdown(f"👤 You: {content}")
     else:
-        st.markdown(f"🚦 TrafficWise:** {content}")
+        st.markdown(f"🚦 TrafficWise: {content}")
     st.markdown("---")
 
 st.text_input(
